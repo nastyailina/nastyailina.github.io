@@ -1,0 +1,59 @@
+h1 {
+	color: #50941D;
+}
+
+article header p {
+	background-color: red;
+	color: white;
+}
+
+article figure img { /* Увеличивает картинку кота */
+	width: 100%;
+}
+
+article figure { /* Делает рамку вокруг картинки кота */
+	width: 600px;
+	border: 3px solid blue;
+	padding: 5px;
+}
+
+article {
+	width: 800px; /* Выравнивает текст по величине */
+}
+
+body {
+	font-family: Comic Sans MS; /* Изменяет шрифт в теге body */
+}
+
+.horisontal-ul li {
+   display: inline-block; /* Делает из ветикального списка горизонтальный */
+}
+nav {
+   background-color: PaleVioletRed;
+   list-style: none;
+   padding: 0;
+   width: 20%;
+   border: 2px solid MediumVioletRed;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+padding:5px; 
+}
+
+li {
+	display:inline;
+	border-left:1px solid #945637;
+	padding:0 2px 0 4px;
+}
+
+li: first-child {
+border:none;
+
+Селекторы h1, p, ul, li и т.д пишутся как слова: h1, p, ul, li
+Индентификатор пишутся с решеткой #intro
+Классы пишутся с точкой .two
